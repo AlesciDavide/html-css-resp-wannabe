@@ -130,7 +130,7 @@ img {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 700px;
+        width: 767px;
         margin: 0 auto;
         padding: 0 20px;
     }
