@@ -128,9 +128,16 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+@media screen and (max-width: 1160px) and (min-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    
+}
+
 @media screen and (max-width: 768px) {
     .container {
-        width: 767px;
+        width: 100%;
         margin: 0 auto;
         padding: 0 20px;
     }
@@ -168,6 +175,10 @@ img {
 
     .steps{
         margin: 3rem 0 0 0;
+    }
+
+    .steps div.col:nth-child(3){
+        padding-top: 4rem;
     }
     
 /* Perchè boolean Academy */
