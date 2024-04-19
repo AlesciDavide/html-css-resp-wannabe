@@ -138,6 +138,8 @@ img {
 }
 
 @media screen and (max-width: 480px) {
+
+    /* Lezioni dove vuoi tu */
     .container {
         width: 375px;
         margin: 0 auto;
@@ -148,7 +150,6 @@ img {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-
     }
 
     .lessons .col{
@@ -159,18 +160,20 @@ img {
         margin-bottom: 50px;
     }
 
-
+    /* come funziona */
 
     .steps .col{
         width: 100%;
     }
 
-    .why-us .col{
-        width: 100%;
-    }
-
     .steps{
         margin: 3rem 0 0 0;
+    }
+    
+/* Perchè boolean Academy */
+
+    .why-us .col{
+        width: 100%;
     }
 
     section.why-us{
